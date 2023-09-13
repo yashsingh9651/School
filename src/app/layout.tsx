@@ -1,6 +1,5 @@
 "use client";
 import './globals.css'
-import type { Metadata } from 'next'
 import { Roboto } from 'next/font/google'
 import Navbar from './components/Navbar'
 import { gsap,Power3 } from 'gsap'
@@ -11,11 +10,6 @@ const roboto = Roboto({
   weight: ['300','400','500','700','900'],
   subsets: ['latin']
 })
-
-export const metadata: Metadata = {
-  title: 'School Registration',
-  description: 'Registration is now on your hands',
-}
 
 export default function RootLayout({
   children,
