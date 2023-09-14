@@ -124,9 +124,3 @@ export default function Home() {
     </>
   );
 }
-export function generateMetadata({ params }) {
-  return {
-    title: "School Admission is now on your hand",
-    description: "Everything About Us is now on your",
-  };
-}
