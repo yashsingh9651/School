@@ -2,8 +2,8 @@
 import Image from "next/image";
 import Link from "next/link";
 import Magnetic from "../components/Magnetic";
-import { useEffect, useLayoutEffect, useRef } from "react";
-import { Elastic, Power3, gsap } from "gsap";
+import {  useLayoutEffect, useRef } from "react";
+import {  Power3, gsap } from "gsap";
 
 // const useIsomorphicLayoutEffect = typeof window !== 'undefined' ? useLayoutEffect : useEffect;
 
